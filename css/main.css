@@ -129,7 +129,7 @@ a:hover {
   white-space: nowrap;
 }
 
-.tittle-2 {
+.title-2 {
   font-size: 36px;
   font-family: "Playfair Display", serif;
   color: #d4c17f;
@@ -166,7 +166,7 @@ a:hover {
           align-items: center;
 }
 
-.header__tittle {
+.header__title {
   position: relative;
   padding-bottom: 121px;
   text-align: center;
@@ -176,7 +176,7 @@ a:hover {
   font-weight: 700;
 }
 
-.header__tittle-icon {
+.header__title-icon {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -254,7 +254,7 @@ a:hover {
   font-weight: 300;
 }
 
-.appartments__tittle {
+.appartments__title {
   margin-bottom: 88px;
 }
 
@@ -325,4 +325,10 @@ a:hover {
 }
 .card__title:hover {
   color: #fff;
+}
+
+.form__input {
+  height: 50px;
+  padding: 12px;
+  text-align: center;
 }
