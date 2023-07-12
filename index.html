@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LoftHouse</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css" />
   </head>
   <body>
     <header class="header">
@@ -31,7 +32,6 @@
                 <div class="nav-icon"></div>
               </button>
             </div>
-
           </div>
         </div>
       </div>
@@ -176,12 +176,13 @@
                 autocomplete="off"
               />
               <input
+                data-tel-input
                 type="text"
                 class="form__input"
                 placeholder="Ваш телефон"
                 autocomplete="off"
               />
-              <p class="form__privacy form__privacy--bottom ">
+              <p class="form__privacy form__privacy--bottom">
                 *Мы никому не передаем ваши данные. <br />И не сохраняем ваш
                 номер в базу.
               </p>
@@ -197,6 +198,7 @@
           <h2 class="visually-hidden">Видео про ЖК Loft House</h2>
           <a
             href="https://www.youtube.com/watch?v=bhJNL9JUsnY"
+            data-youtubeLightbox
             class="video__link"
           >
             <img src="./img/video/play.svg" alt="" class="video__icon" />
@@ -235,6 +237,7 @@
               autocomplete="off"
             />
             <input
+              data-tel-input
               type="text"
               class="form__input"
               placeholder="Ваш телефон"
@@ -316,6 +319,22 @@
     </footer>
     <!-- /.footer -->
 
+    <!-- YouTube LightBox -->
+    <div id="youtubelightbox" class="youtubelightbox">
+      <div class="youtubelightbox__centeredchild">
+        <div class="youtubelightbox__videowrapper">
+          <div id="youtubelightboxPlayer"></div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=4becfb30-9417-4510-a65c-2cd4fc5bb0a3&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+    <script src="./libs/phoneMask/mask.js"></script>
+    <script src="./libs/phoneMask/mask_list.js"></script>
+    <script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
