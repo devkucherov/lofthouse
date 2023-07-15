@@ -12,5 +12,5 @@
 
 [Ссылка для просмотра](https://devkucherov.github.io/lofthouse)
 
-Дизайн - undefined
+Дизайн - undefined <br>
 Верстка - Паша Кучеров
